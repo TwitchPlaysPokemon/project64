@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Project64 - Win32 Release External--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP333.TMP" with contents
+[
+/nologo /G6 /Gr /MT /W3 /O2 /Ob2 /D "EXTERNAL_RELEASE" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release_External/Project64.pch" /YX /Fo"Release_External/" /Fd"Release_External/" /FD /c 
+"E:\My Programs\Project64\rom.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP333.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0334.TMP" with contents
+[
+winmm.lib zlib113.lib Htmlhelp.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release_External/Project64.pdb" /machine:I386 /out:"Release_External/Project64.exe" 
+".\Release_External\BreakPoints.obj"
+".\Release_External\CPU Log.obj"
+".\Release_External\Logging.obj"
+".\Release_External\mapping.obj"
+".\Release_External\r4300i Commands.obj"
+".\Release_External\r4300i Memory.obj"
+".\Release_External\r4300i Registers.obj"
+".\Release_External\TLB Display.obj"
+".\Release_External\Cheat.obj"
+".\Release_External\Main.obj"
+".\Release_External\Profiling.obj"
+".\Release_External\RomBrowser.obj"
+".\Release_External\Settings Api.obj"
+".\Release_External\Settings.obj"
+".\Release_External\Win32Timer.obj"
+".\Release_External\unzip.obj"
+".\Release_External\zip.obj"
+".\Release_External\Eeprom.obj"
+".\Release_External\FlashRam.obj"
+".\Release_External\Mempak.obj"
+".\Release_External\Sram.obj"
+".\Release_External\CPU.obj"
+".\Release_External\DMA.obj"
+".\Release_External\Exception.obj"
+".\Release_External\Interpreter CPU.obj"
+".\Release_External\Interpreter Ops.obj"
+".\Release_External\Memory.obj"
+".\Release_External\pif.obj"
+".\Release_External\Recompiler CPU.obj"
+".\Release_External\Recompiler Fpu Ops.obj"
+".\Release_External\Recompiler Ops.obj"
+".\Release_External\Registers.obj"
+".\Release_External\rom.obj"
+".\Release_External\Sync CPU.obj"
+".\Release_External\TLB.obj"
+".\Release_External\Plugin.obj"
+".\Release_External\x86 fpu.obj"
+".\Release_External\X86.obj"
+".\Release_External\PJ64.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0334.TMP"
+<h3>Output Window</h3>
+Compiling...
+rom.c
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+Project64.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

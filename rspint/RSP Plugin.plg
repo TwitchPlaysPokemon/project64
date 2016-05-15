@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RSP Plugin - Win32 HLE Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP4296.TMP" with contents
+[
+/nologo /G6 /ML /W3 /GX /O2 /D "DLIST" /D "ALIST" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RSPPLUGIN_EXPORTS" /Fp"HLE Release/RSP Plugin.pch" /YX /Fo"HLE Release/" /Fd"HLE Release/" /FD /c 
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\breakpoint.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\dma.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\main.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\memory.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\RSP_Command.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\RSP_CPU.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\RSP_opcodes.c"
+"E:\My Programs\Plugin\Public RSP Interpreter Plugin\RSP_Register.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4296.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4297.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"HLE Release/HLE.pdb" /machine:I386 /out:"Plugin\HLE.dll" /implib:"HLE Release/HLE.lib" 
+".\HLE Release\breakpoint.obj"
+".\HLE Release\dma.obj"
+".\HLE Release\main.obj"
+".\HLE Release\memory.obj"
+".\HLE Release\RSP_Command.obj"
+".\HLE Release\RSP_CPU.obj"
+".\HLE Release\RSP_opcodes.obj"
+".\HLE Release\RSP_Register.obj"
+".\HLE Release\RSP.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP4297.TMP"
+<h3>Output Window</h3>
+Compiling...
+breakpoint.c
+dma.c
+main.c
+memory.c
+RSP_Command.c
+RSP_CPU.c
+RSP_opcodes.c
+RSP_Register.c
+Linking...
+   Creating library HLE Release/HLE.lib and object HLE Release/HLE.exp
+
+
+
+<h3>Results</h3>
+HLE.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
